@@ -16,5 +16,5 @@ export interface IMovie{
 }
 
 
-export const baseURL = process.env.REACT_APP_VERCEL_URL;
+export const baseURL = "https://show-app-ruby.vercel.app";
 export const getMovies = () => axios.get(`${baseURL}/json/sample.json`);
